@@ -36,7 +36,6 @@ if (localStorage.jwtToken) {
 }
 class App extends Component {
   render() {
-    // console.log("hello");
     return (
       <Provider store ={store}>
         <Router basename="/">
